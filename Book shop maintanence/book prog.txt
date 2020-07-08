@@ -1,0 +1,169 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+class book
+{
+    char *author,*title,*publisher;
+    int *stock;
+    float *price;
+    public:
+    book()
+    {
+      author=new char[20];
+      title=new char[20];
+      publisher=new char[20];
+      price=new float;
+      stock=new int;
+    }
+    void add();
+    void update(book b[50],int total);
+    int search(book b[],int total);
+    void purchase(book b[], int total);
+    void display();
+};
+void book::add()
+{
+    cin.ignore();
+    cout<<"Enter author of book"<<endl;
+    cin.getline(author,20);
+    cout<<"Enter title of book"<<endl;
+    cin.getline(title,20);
+    cout<<"Enter publisher of book"<<endl;
+    cin.getline(publisher,20);
+    cout<<"Enter price of book"<<endl;
+    cin>>*price;
+    cout<<"Enter number of books available"<<endl;
+    cin>>*stock;
+}
+int book::search(book b[],int total)
+{
+    int i,j;
+    char t[20];
+    cin.ignore();
+    cout<<"Enter the title of the book"<<endl;
+    cin.getline(t,20);
+    for(i=0;i<total;i++)
+    {
+      j=strcmp(t,b[i].title);
+      if(j==0)
+      {
+    	 return i;
+      }
+    }
+    return -1;
+}
+void book::update(book b[],int total)
+{
+    int s;
+    s=search(b,total);
+    if(s==-1)
+       cout<<"Book not found"<<endl;
+    else
+    {
+       cout<<"Enter the new price of book"<<endl;
+       cin>>*(b[s].price);
+       cout<<"Enter the stock of book available"<<endl;
+       cin>>*(b[s].stock);
+       cout<<"Updated succesfully"<<endl;
+       cout<<"Title\t\t\t"<<"Author\t\t\t"<<"Publisher	\t\t"<<"Price\t\t"<<"Stock	"<<endl;
+       b[s].display();
+    }
+}
+void book::purchase(book b[],int total)
+{
+    int s,n;
+    float pr,p;
+    s=search(b,total);
+    if(s==-1)
+       cout<<"Book not found"<<endl;
+    else
+    {
+        if(*b[s].stock==0)
+            cout<<"Not Available"<<endl;
+        else
+        {
+            cout<<"Available stock : "<<*(b[s].stock)<<endl;
+             cout<<"How many books do you want to purchase"<<endl;
+             cin>>n;
+             p=*(b[s].price);
+             *(b[s].stock)=*(b[s].stock)-n;
+            pr=p*n;
+             cout<<"Total amount to be paid: "<<pr<<endl;
+             cout<<"Purchased successfully"<<endl;
+        }
+    }
+}
+void book::display()
+{
+           cout<<"   "<<title<<"\t\t\t"<<author<<"\t\t\t"<<publisher<<"\t\t\t"<<*price<<"\t\t"<<*stock<<endl;
+}
+int main()
+{
+ 	int ch,num,i,total;
+ 	book b[50],d;
+ 	cout<<"Enter the total number of books"<<endl;
+ 	cin>>total;
+ 	for(i=0; i<total; i++)
+ 	{
+   		b[i].add();
+ 	}
+ 	do
+ 	{
+ 		cout<<"Enter your choice:" <<endl<< "1.Add" <<endl << "2.Search" <<endl << "3.Update" <<endl<< "4.Purchase" <<endl;
+ 		cout<<"5.Display"<<endl<<"6.Exit"<<endl;
+ 		cin>>ch;
+ 		switch(ch)
+ 		{
+   			case 1:
+   			{
+         			int m;
+         			cout<<"Enter the number of books you want to add"<<endl;
+         			cin>>num;
+         			m=total+num;
+         			for(i=total;i<m;i++)
+         			{
+          				 b[i].add();
+         			}
+         			total=m;
+         			break;
+    			}
+    			case 2:
+    			{
+    			      int s;
+    			      s=d.search(b,total);
+    			      if(s==-1)
+    			        cout<<"Book not found"<<endl;
+    			      else
+    			      {
+    			          cout<<"Book found"<<endl;
+    			          cout<<"Title\t\t\t"<<"Author\t\t\t"<<"Publisher\t"<<"Price\t\t"<<"Stock"<<endl;
+    			          b[s].display();
+    			      }
+    			      break;
+    			}
+    			case 3:
+    			{
+    			       d.update(b,total);
+    			       break;
+    			}
+    			case 4:
+                                                {
+    			     d.purchase(b,total);
+    			      break;
+                                                 }
+                                               case 5:
+    			{
+           		        cout<<"Title\t\t\t"<<"Author\t\t\t"<<"Publisher	\t\t"<<"Price\t\t"<<"Stock	"<<endl;
+         			for(i=0; i<total; i++)
+         			{
+            				b[i].display();
+         			}
+         	                break;
+    			}
+
+    			case 6:
+          			cout<<"THANK YOU"<<endl;
+          			break;
+ 		}//switch
+ 	} while(ch!=7);
+}//main

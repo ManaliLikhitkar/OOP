@@ -1,0 +1,143 @@
+Enter the total number of books
+2
+Enter author of book
+a
+Enter title of book
+a
+Enter publisher of book
+a
+Enter price of book
+60
+Enter number of books available
+10
+Enter author of book
+b
+Enter title of book
+b
+Enter publisher of book
+b
+Enter price of book
+40
+Enter number of books available
+15
+Enter your choice:
+1.Add
+2.Search
+3.Update
+4.Purchase
+5.Display
+6.Exit
+1
+Enter the number of books you want to add
+2
+Enter author of book
+c
+Enter title of book
+c
+Enter publisher of book
+c
+Enter price of book
+35
+Enter number of books available
+5
+Enter author of book
+d
+Enter title of book
+d
+Enter publisher of book
+d
+Enter price of book
+45
+Enter number of books available
+4
+Enter your choice:
+1.Add
+2.Search
+3.Update
+4.Purchase
+5.Display
+6.Exit
+5
+Title                   Author                  Publisher             Price           Stock
+   a                              a                                a                          60              10
+   b                              b                               b                         40              15
+   c                                c                               c                          35              5
+   d                               d                                d                       45               4
+Enter your choice:
+1.Add
+2.Search
+3.Update
+4.Purchase
+5.Display
+6.Exit
+2
+Enter the title of the book
+b
+Book found
+Title                     Author                  Publisher       Price           Stock
+   b                                 b                       b                       40              15
+Enter your choice:
+1.Add
+2.Search
+3.Update
+4.Purchase
+5.Display
+6.Exit
+3
+Enter the title of the book
+c
+Enter the new price of book
+65
+Enter the stock of book available
+6
+Updated succesfully
+Title                   Author                  Publisher                       Price           Stock
+   c                               c                                c                                     65              6
+Enter your choice:
+1.Add
+2.Search
+3.Update
+4.Purchase
+5.Display
+6.Exit
+5
+Title           Author          Publisher          Price           Stock
+   a                    a                       a                       60              10
+   b                    b                       b                      40              15
+   c                    c                       c                        65              6
+   d                    d                       d                       45              4
+Enter your choice:
+1.Add
+2.Search
+3.Update
+4.Purchase
+5.Display
+6.Exit
+4
+Enter the title of the book
+b
+Available stock : 15
+How many books do you want to purchase
+3
+Total amount to be paid: 120
+Purchased successfully
+Enter your choice:
+1.Add
+2.Search
+3.Update
+4.Purchase
+5.Display
+6.Exit
+5
+Title           Author          Publisher         Price           Stock
+   a                    a                       a                       60              10
+   b                    b                       b                      40              12
+   c                    c                       c                        65              6
+   d                    d                       d                      45              4
+Enter your choice:
+1.Add
+2.Search
+3.Update
+4.Purchase
+5.Display
+6.Exit
