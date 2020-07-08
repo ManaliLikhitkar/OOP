@@ -1,0 +1,95 @@
+Enter the number of days
+2
+Enter the day,high temperature,low temperature,amount of rainfall,amount of snow for the day.
+1
+50
+50
+50
+50
+Enter the day,high temperature,low temperature,amount of rainfall,amount of snow for the day.
+2
+30
+30
+303
+30
+1.View
+2.Update
+3.Average
+4.Exit
+
+Enter your choice	1
+
+Day		HIGH TEMPERATURE		LOW TEMPERATURE		AMOUNT OF RAIN		AMOUNT OF SNOW   		
+ 1			50 				50			50			50
+ 2			30 				30			303			30
+
+1.View
+2.Update
+3.Average
+4.Exit
+
+Enter your choice	3
+
+Average high temperature : 40
+Average low temperature : 40
+Average rainfall :  176.5
+Average snowfall :  40
+
+1.View
+2.Update
+3.Average
+4.Exit
+
+Enter your choice	2
+
+Enter the day to update	2
+Enter the day,high temperature,low temperature,amount of rainfall,amount of snow for the day.
+2
+50
+50
+50
+50
+
+1.View
+2.Update
+3.Average
+4.Exit
+
+Enter your choice	3
+
+Average high temperature : 50
+Average low temperature : 50
+Average rainfall :  50
+Average snowfall :  50
+
+1.View
+2.Update
+3.Average
+4.Exit
+
+Enter your choice	1
+
+Day		HIGH TEMPERATURE		LOW TEMPERATURE		AMOUNT OF RAIN		AMOUNT OF SNOW   		
+ 1			50 				50			50			50
+ 2			50 				50			50			50
+
+1.View
+2.Update
+3.Average
+4.Exit
+
+Enter your choice	5
+
+Please enter valid choice
+
+1.View
+2.Update
+3.Average
+4.Exit
+
+Enter your choice	4
+
+THANK YOU
+
+pict-c402-15@pictc40215-OptiPlex-3010:~/23333$ 
+
