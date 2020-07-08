@@ -1,0 +1,3 @@
+Write a program in C++ using function/class template to read two matrices of
+different data types such as integers and floating point values and perform
+simple arithmetic operations on these matrices separately and display it.

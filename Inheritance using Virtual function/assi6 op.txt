@@ -1,0 +1,45 @@
+
+MENU
+1.Area of triangle
+2.Area of rectangle
+3.Exit
+
+Enter your choice:1
+
+Enter 1st value:2
+Enter 2nd value:2
+
+Area of triangle is 2 square unit
+
+
+MENU
+1.Area of triangle
+2.Area of rectangle
+3.Exit
+
+Enter your choice:2
+
+Enter 1st value:4
+Enter 2nd value:5
+
+Area of rectangle is 20 square unit
+
+
+MENU
+1.Area of triangle
+2.Area of rectangle
+3.Exit
+
+Enter your choice:4
+Please enter correct choice!!
+
+
+MENU
+1.Area of triangle
+2.Area of rectangle
+3.Exit
+
+Enter your choice:3
+
+
+THANK YOU

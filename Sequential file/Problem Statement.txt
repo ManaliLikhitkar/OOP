@@ -1,0 +1,7 @@
+Write a program in C++ to implement sequential file for students' database
+and perform following operations on it
+i. Create
+ii. Display
+iii. Add
+iv. Delete
+v. Modify

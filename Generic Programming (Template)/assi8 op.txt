@@ -1,0 +1,100 @@
+Enter your choice
+1.Integer matrix
+2.Float matrix
+3.Exit
+1
+Matrix 1:
+Number of rows:2
+
+Number of columns:2
+
+Enter the elements of matrix:
+1
+1
+1
+1
+Matrix 2:
+Number of rows:3
+
+Number of columns:3
+
+Enter the elements of matrix:
+1
+1
+1
+1
+
+1
+1
+1
+1
+1
+Operations cannot be performed
+Enter your choice
+1.Integer matrix
+2.Float matrix
+3.Exit
+1
+Matrix 1:
+Number of rows:2
+
+Number of columns:2
+
+Enter the elements of matrix:
+1
+1
+1
+1
+Matrix 2:
+Number of rows:2
+
+Number of columns:2
+
+Enter the elements of matrix:
+3
+3
+3
+3
+Addition is:
+4       4
+4       4
+Subtraction is:
+-2      -2
+-2      -2
+Enter your choice
+1.Integer matrix
+2.Float matrix
+3.Exit
+2
+Matrix 1:
+Number of rows:2
+
+Number of columns:2
+
+Enter the elements of matrix:
+1.1
+2.2
+3.3
+4.4
+Matrix 2:
+Number of rows:2
+
+Number of columns:2
+
+Enter the elements of matrix:
+1.1
+2.2
+3.3
+4.4
+Addition is:
+2.2     4.4
+6.6     8.8
+Subtraction is:
+0       0
+0       0
+Enter your choice
+1.Integer matrix
+2.Float matrix
+3.Exit
+3
+THANK YOU!!!

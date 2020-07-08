@@ -1,0 +1,101 @@
+
+1.Read data
+2.Display data
+3.Exit
+
+1
+
+Enter the number of records
+2
+
+RECORD NUMBER:1
+Enter the name:a1
+
+Please enter correct name
+Enter the name:a@
+
+Please enter correct name
+Enter the name:aaa
+
+Enter the date of birth:13
+45
+15
+
+Please enter correct date
+Enter the date of birth:1
+1
+16
+
+Enter adhar card number:123456
+
+Enter years of experience:2
+
+Enter department:sales
+
+Enter salary:20000
+
+Enter post:manager
+
+Enter your qualification:manager
+
+Enter year of passing:2017
+
+Enter percentage:78
+
+Enter university:sppu
+
+Enter the number of skills:2
+
+Enter the skills
+c
+c++
+
+RECORD NUMBER:2
+Enter the name:bbb
+
+Enter the date of birth:12
+3
+99
+
+Enter adhar card number:12324435
+
+Enter years of experience:2
+
+Enter department:dssf
+
+Enter salary:300000
+
+Enter post:sdff
+
+Enter your qualification:sdsf
+
+Enter year of passing:2017
+
+Enter percentage:79
+
+Enter university:sppu
+
+Enter the number of skills:2
+
+Enter the skills
+java
+python
+
+
+1.Read data
+2.Display data
+3.Exit
+
+2
+
+aaa     1/1/16  123456  2       sales   20000   manager manager 2017    78%     sppu    c,c++
+bbb     12/3/99 12324435        2       dssf    300000  sdff    sdsf    2017    79%     sppu    java,python
+
+
+1.Read data
+2.Display data
+3.Exit
+
+3
+
+THANK YOU!!

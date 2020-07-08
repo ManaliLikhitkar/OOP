@@ -1,0 +1,290 @@
+Enter the total number of records
+2
+Enter the name,blood group,date of birth,height,weight,policy number,address,phone number and driving license number of the person
+
+a
+b
+12
+3
+14
+20
+30
+1234
+a
+a
+a
+411037
+1234
+12344556
+
+Enter the name,blood group,date of birth,height,weight,policy number,address,phone number and driving license number of the person
+
+b
+b
+13
+4
+12
+30
+40
+12345
+b
+b
+b
+411
+1234
+12345667
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+
+1
+
+Enter the numbers of records to be added
+1
+Enter the name,blood group,date of birth,height,weight,policy number,address,phone number and driving license number of the person
+
+c
+b
+12
+3
+14
+20
+30
+1233
+c
+c
+c
+411037
+12345566
+122344
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+5
+
+
+  a        b             12/3/14                  20       30   1234    a,a,a,411037            1234        12344556
+  b        b             13/4/12                  30       40   12345   b,b,b,411               1234        12345667
+  c        b             12/3/14                  20       30   1233    c,c,c,411037            12345566            122344
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+2
+Enter the policy number whose record is to be searched
+1234
+
+
+Record found
+  a        b             12/3/14                  20       30   1234    a,a,a,411037            1234        12344556
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+2
+Enter the policy number whose record is to be searched
+12345
+
+
+Record found
+  b        b             13/4/12                  30       40   12345   b,b,b,411               1234        12345667
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+2
+Enter the policy number whose record is to be searched
+1233
+
+
+Record found
+  c        b             12/3/14                  20       30   1233    c,c,c,411037            12345566            122344
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+2
+Enter the policy number whose record is to be searched
+123456
+
+
+Record not found
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+3
+Enter the policy number whose record is to be edited
+12345
+
+1.Height
+2.Weight
+3.Address
+4.Phone number
+5.Finish
+Enter your choice
+1
+
+Enter the new height of person
+45
+
+1.Height
+2.Weight
+3.Address
+4.Phone number
+5.Finish
+Enter your choice
+2
+
+Enter the new weight of person
+55
+1.Height
+2.Weight
+3.Address
+4.Phone number
+5.Finish
+Enter your choice
+3
+
+Enter the new address of person
+f
+f
+f
+411
+
+1.Height
+2.Weight
+3.Address
+4.Phone number
+5.Finish
+Enter your choice
+4
+
+Enter the new phone number of person
+6789
+
+1.Height
+2.Weight
+3.Address
+4.Phone number
+5.Finish
+Enter your choice
+5
+Edited successfully
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+5
+ 
+ 
+  a        b             12/3/14                  20       30   1234    a,a,a,411037            1234        12344556
+  b        b             13/4/12                  45       55   12345   f,f,f,411               6789        12345667
+  c        b             12/3/14                  20       30   1233    c,c,c,411037            12345566            122344
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+4
+Enter the policy number whose record is to be deleted
+1234
+Deleted successfully
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+5
+ 
+ 
+  b        b             13/4/12                  45       55   12345   f,f,f,411               6789        12345667
+  c        b             12/3/14                  20       30   1233    c,c,c,411037            12345566            122344
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+4
+Enter the policy number whose record is to be deleted
+123456
+
+Record not found
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+4
+Enter the policy number whose record is to be deleted
+1233
+Deleted successfully
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+5
+  
+  
+  b        b             13/4/12                  45       55   12345   f,f,f,411               6789        12345667
+
+
+1.Add record
+2.Search record
+3.Edit record
+4.Delete record
+5.Display records
+6.Exit
+6
+
+Thank You

@@ -1,0 +1,55 @@
+1.Read numbers.
+2.Display division.
+3.Exit
+
+Enter your choice:1
+
+Enter two numbers: 2
+2
+
+1.Read numbers.
+2.Display division.
+3.Exit
+
+Enter your choice:2
+Division:1
+
+1.Read numbers.
+2.Display division.
+3.Exit
+
+Enter your choice:1
+
+Enter two numbers: 4
+2
+
+1.Read numbers.
+2.Display division.
+3.Exit
+
+Enter your choice:2
+Division:2
+
+1.Read numbers.
+2.Display division.
+3.Exit
+
+Enter your choice:1
+
+Enter two numbers: 3
+0
+
+1.Read numbers.
+2.Display division.
+3.Exit
+
+Enter your choice:2
+Divide by zero exception
+Exception recatched
+
+1.Read numbers.
+2.Display division.
+3.Exit
+
+Enter your choice:3
+THANK YOU
